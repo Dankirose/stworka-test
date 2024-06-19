@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+.checklist {
+    width: 750px;
+    height: 91px;
+    background-color: #3579F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+.checklist__score {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    stroke-width: 2px;
+    stroke: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checklist__ellipse {
+    width: 90px;
+    height: 90px;
+}
+
+.checklist__number {
+    position: absolute;
+    font-size: 22px;
+    color: #fff;
+}
+.first {
+    position: relative;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+}
+.second {
+    position: relative;
+    left: 35px;
+    bottom: 78px;
+}
+
+.checklist__info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: 20px;
+}
+.checklist__check {
+    color: #fff;
+}
+.check {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    width: 76px;
+    background: #2364DB;
+    border-radius: 40px;
+    padding: 5px 5px;
+}
+.result {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    font-style: normal;
+}
+.task {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    font-style: normal;
+}
+.checklist__button {
+    margin-left: 68px;
+}
+button {
+    width: 170px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    color: #4777ED;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    cursor: pointer;
+}
